@@ -17,10 +17,7 @@ def classify_triangle(a,b,c):
                     result = result + "This triangle is scalene"
                 #check for right triangle
                 if(round(a*a,2) + round(b*b,2) == round(c*c,2)):
-                    result = result + " this triangle is also a right triangle"
-                
-
-                
+                    result = result + " this triangle is also a right triangle"             
             else: 
                 result = "Please set parameter c to be an integer or float"
         else:
